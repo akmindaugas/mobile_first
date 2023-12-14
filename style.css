@@ -45,10 +45,12 @@ box-sizing: border-box;
   h2{
     font-size: var(--h2-size);
     font-weight: 500;
+    letter-spacing: 0.1em;
   }
   h1{
     font-size: var(--h1-size);
     font-weight: 400;
+    letter-spacing: 0.1em;;
   }
   span{
     color: var(--span-color);
@@ -59,6 +61,28 @@ box-sizing: border-box;
     padding: 10px;
     border-radius: 2px;
     position: absolute;
+    font-size: large;
+  }
+  a.tours{
+    /* display: inline;
+    justify-content: start; */
+    text-decoration: none;
+    font-size: var(--h3-size);
+    color: black;
+    text-align: left;
+
+  }
+  .map_days_price{
+    width: 100%;
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;  
+     justify-content:space-between;
+  }
+  .map{
+    font-size: var(--p--size);
+    text-decoration: none;
+    color: var(--main-color);
   }
 
   .soc_icons{
