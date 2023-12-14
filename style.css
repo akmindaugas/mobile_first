@@ -63,10 +63,8 @@ box-sizing: border-box;
     position: absolute;
     font-size: large;
   }
-  a.tours{
+  .tours{
     grid-column: span 2;
-    /* display: inline;
-    justify-content: start; */
     text-decoration: none;
     font-size: var(--h3-size);
     color: black;
@@ -184,3 +182,30 @@ margin-top: 30px;
     position:relative;
   }
 
+.img_gallery{
+display: grid;
+row-gap: 10px;
+background-color: var(--main-color);
+}
+.gallery_photo{
+    width: 100%;
+    height: auto;
+}
+.info_and_updates{
+    display: flex;
+  flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--main-color);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info_updates_h2, .info_updates_h3, .form_email{
+    width: 50%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
