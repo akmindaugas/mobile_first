@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+box-sizing: border-box;
+}
+:root {
+    --main-color: #645cff;
+    --span-color: #aaa5ff;
+    --h1-size: 75px;
+    --h3-size: 40px;
+    --p--size: 25px;
+    --h2-size: 55px;
+    --background-color-light: #f8fbfc;
+  }
+  main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .our_services,.our_gallery{
+    background-color: var(--background-color-light);
+  }
+  .photos{
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav{
+    width: 100%;
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;  
+     justify-content:space-between;
+  }
+  h3{
+    font-size: var(--h3-size);
+    font-weight: 500;
+  }
+  h2{
+    font-size: var(--h2-size);
+    font-weight: 500;
+  }
+  h1{
+    font-size: var(--h1-size);
+    font-weight: 400;
+  }
+  span{
+    color: var(--span-color);
+  }
+  .date{
+    background-color: var(--main-color);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 2px;
+    position: absolute;
+  }
+
+  .soc_icons{
+    width: 30px;
+    margin: 10px;
+  }
+  .continue_exploring{
+    background-color: var(--main-color);
+    color: white;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+  }
+  p{
+    font-size: var(--p--size);
+  }
+  .explore{
+background-color: #645cff;
+color: white;
+font-size: var(--p--size);
+border-radius: 5px;
+padding: 15px;
+margin-top: 30px;
+  }
+  .about_us{
+    /* background-color: aquamarine; */
+  }
+  .about_us_headline{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .about_us_bottomline{
+    text-align: left;
+    padding-left: 25px;
+  }
+  .explore_the_difference{
+    
+    line-height: 1.5;
+    padding: 25px;
+    text-align: justify;
+    font-size: var(--p--size);
+  }
+  .read_more{
+    font-size: var(--p--size);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .our_services_elements{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;justify-content: space-around;
+   
+  }
+  .saving_money, .endless_hiking, .amazing_comfort{
+     width: 40%;
+     margin: 10px
+  }
+  .tibet{
+    background-image: url(/img/img_tibet.jpg);
+    background-size: cover;
+    position:relative;
+  }
+  .java{
+    background-image: url(/img/img_java.jpg);
+    background-size: cover;
+    position:relative;
+  }
+  .hk{
+    background-image: url(/img/img_hk.jpg);
+    background-size: cover;
+    position:relative;
+  }
+  .kenya{
+    background-image: url(/img/img_kenya.jpg);
+    background-size: cover;
+    position:relative;
+  }
+
