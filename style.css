@@ -194,23 +194,33 @@ background-color: var(--main-color);
 }
 .info_and_updates{
     display: flex;
-  flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     background-color: var(--main-color);
     color: white;
+    justify-content: center;
+    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
-.info_updates_h2, .info_updates_h3, .form_email{
+.info, .form_email{
     width: 50%;
+}
+input{
+    line-height: 3em;
+}
+#emails{
+    width: 40%;
 }
 footer{
     display: flex;
     flex-wrap: wrap;
     background-color: black;
     color: white;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
 }
 li{
     list-style-type: none;
