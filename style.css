@@ -64,25 +64,46 @@ box-sizing: border-box;
     font-size: large;
   }
   a.tours{
+    grid-column: span 2;
     /* display: inline;
     justify-content: start; */
     text-decoration: none;
     font-size: var(--h3-size);
     color: black;
     text-align: left;
+    line-height: 2;
+    margin-left: 20px;
 
   }
+  .period_price{
+    font-size: var(--p--size);
+    /* font-weight: 150; */
+    line-height: 0;
+    text-align: right;
+    margin-right: 20px;
+  }
   .map_days_price{
-    width: 100%;
-    display:inline-grid;
+    width: 700px;
+    display:grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;  
-     justify-content:space-between;
+    grid-template-rows: auto auto;
+    gap: 10px;
+ align-items: center;
+ margin-bottom: 40px;
+ box-shadow: 0px 1px 1px 1px #d6d1d1;
+ margin-left: auto;
+ margin-right: auto;
+     /* justify-content:space-between; */
   }
   .map{
     font-size: var(--p--size);
     text-decoration: none;
     color: var(--main-color);
+    margin-left: 10px;
+  }
+  .map_pointer{
+    text-align: left;
+    margin-left: 20px;
   }
 
   .soc_icons{
