@@ -207,17 +207,12 @@ background-color: var(--main-color);
     padding-right: 20px; */
 }
  .info{
-    width: 40%;
+    width: 50%;
 }
 input{
     line-height: 3em;
 }
-/* .submit{
-    width: 100%;
-} */
-/* #emails{
-    width: 100%;
-} */
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -261,23 +256,79 @@ li{
         font-size: var(--h4-size); 
     }
     .continue_exploring{
-background-image: url(/img/img_tibet.jpg);
+    background-image: url(/img/img_tibet.jpg);
       }
-      .photos_wrapp{
+      .about_us_text{
+        width: 50%;
+      }
+      .photos_wrap{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         border: solid 10px blue;
-        width: 700px;
+        width: 50%;
+        height: auto;
         }
-      }
+      
       .photos{
+        width: 100%;
         position: relative;
         z-index: 1;
-        left: 40px;
-        top: 40px;
+        left: 20px;
+        top: 20px;
+        /* margin: 0 auto; */
       }
 
+      .content{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     
+      } 
+      .content_tours{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+      }
+      .first_tour,.second_tour,.third_tour,.fourth_tour{
+        width: 95%;
+        height: auto;
+        margin: 5px auto;
+      }
+      .content_services{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+       
+      }
+      .img_gallery{
+        display: inline-block;
+        background-color: var(--background-color-light);
+        margin: 0 auto;
+        row-gap: 0px;
+      
+        }
+      .gallery_photo{
+        width: 24%;
+        height: auto;
+        object-fit: cover;
+    }
+    .info_and_updates{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      background-color: var(--main-color);
+      color: white;
+      justify-content:space-between;
+      align-items: center;
+}
+.saving_money, .endless_hiking, .amazing_comfort{
+  width: 33%;
+  margin: 0px
+}
+}
 @media screen and (min-width: 1200px){
     main{
         width: 1200px;
