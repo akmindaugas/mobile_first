@@ -264,15 +264,19 @@ li{
 background-image: url(/img/img_tibet.jpg);
       }
       .photos_wrapp{
-        border { solid 10px blue;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 10px blue;
+        width: 700px;
         }
       }
       .photos{
-       
-
+        position: relative;
+        z-index: 1;
+        left: 40px;
+        top: 40px;
       }
-    
-}
 
 @media screen and (min-width: 1200px){
     main{
