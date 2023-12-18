@@ -168,21 +168,41 @@ margin-top: 30px;
     background-image: url(/img/img_tibet.jpg);
     background-size: cover;
     position:relative;
+    width: 700px;
+    height: 500px;
+    /* object-fit: cover; */
+    margin-left: auto;
+    margin-right: auto;
   }
   .java{
     background-image: url(/img/img_java.jpg);
     background-size: cover;
     position:relative;
+    width: 700px;
+    height: 500px;
+    /* object-fit: cover; */
+    margin-left: auto;
+    margin-right: auto;
   }
   .hk{
     background-image: url(/img/img_hk.jpg);
     background-size: cover;
     position:relative;
+    width: 700px;
+    height: 500px;
+    /* object-fit: cover; */
+    margin-left: auto;
+    margin-right: auto;
   }
   .kenya{
     background-image: url(/img/img_kenya.jpg);
     background-size: cover;
     position:relative;
+    width: 700px;
+    height: 500px;
+    /* object-fit: cover; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .img_gallery{
@@ -277,6 +297,15 @@ li{
       
       .photos{
         width: 100%;
+        height:auto;
+        position: relative;
+        z-index: 1;
+        left: 20px;
+        top: 20px;
+        /* margin: 0 auto; */
+      }
+      .tibet, .java, .hk, .kenya{
+        width: 100%;
         height:200px;
         position: relative;
         z-index: 1;
@@ -284,7 +313,7 @@ li{
         top: 20px;
         /* margin: 0 auto; */
       }
-
+    
       .content{
         max-width: 100%;
         display: grid;
