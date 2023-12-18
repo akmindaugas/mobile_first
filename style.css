@@ -360,7 +360,7 @@ li{
       flex-direction: row;
       background-color: var(--main-color);
       color: white;
-      justify-content:space-between;
+      justify-content:center;
       align-items: center;
 }
 .saving_money, .endless_hiking, .amazing_comfort{
